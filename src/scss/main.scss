@@ -1,0 +1,43 @@
+@import "base/fonts.scss";
+@import "base/variables.scss";
+@import "base/mixines.scss";
+@import "base/media.scss";
+@import "base/animate.scss";
+@import "base/bootstrap-reboot.min";
+@import "base/slick";
+
+*{
+    font-family: 'Museo Sans Cyrl';
+
+}
+.container {
+    width: 950px;
+    margin: 0 auto;
+}
+.tittle{
+    text-align: center;
+    color: #0d0d0d;
+    font-size: 30px;
+    font-weight: 700;
+    
+    text-transform: uppercase;
+    &-left{
+        text-align: left;
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 700;
+            }
+}
+
+@import "blocks/promo.scss";
+@import "blocks/header.scss";
+@import "blocks/buttons.scss";
+@import "blocks/features.scss";
+@import "blocks/consultation.scss";
+@import "blocks/forms.scss";
+@import "blocks/carousel.scss";
+@import "blocks/catalog.scss";
+@import "blocks/feedback.scss";
+@import "blocks/footer.scss";
+@import "blocks/modal.scss";
+@import "blocks/backtotop.scss";

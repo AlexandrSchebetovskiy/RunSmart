@@ -1,0 +1,40 @@
+.feedback{
+    padding-bottom: 71px;
+    &__wrapper{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    &__item{
+
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        border-bottom: 2px solid #f6f6f6;
+        margin-bottom: 50px;
+        &:nth-child(3){
+            border:none;
+        }
+    }
+    &__photo{
+        margin-right: 62px;
+    }
+    &__name{
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    &__descr{
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 19px;
+    }
+    &__text{
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
